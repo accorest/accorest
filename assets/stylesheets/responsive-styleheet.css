@@ -67,7 +67,7 @@
     height: 780px;
   }
 
-  .shb-section-providers {
+  .shb-section-providers,.shb-section-services {
     padding: 60px 0;
   }
 
@@ -1386,6 +1386,9 @@
   .country-office-flex:not(:last-child) {
     margin-bottom: 20px;
   }
+  .shb-section-developing-process-step-button h4{
+    display: none;
+  }
 }
 
 @media only screen and (max-width:480px) {
@@ -1409,7 +1412,7 @@
     margin-top: 12px;
   }
 
-  .shb-section-providers {
+  .shb-section-providers,.shb-section-services {
     padding: 40px 0 0;
   }
 
@@ -1612,9 +1615,7 @@
     max-width: 100px;
     width: 100px;
   }
-  .shb-section-developing-process-step-button h4{
-    display: none;
-  }
+
   .shb-section-developing-process-visuals{
     margin-top: 30px;
   }

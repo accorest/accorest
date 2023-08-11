@@ -83,11 +83,6 @@ const shbClientLogosSwiper = new Swiper('#shbClientLogos', {
             slidesPerView: 4,
             spaceBetween: 40
         },
-        // when window width is >= 1600px
-        1600: {
-            slidesPerView: 5,
-            spaceBetween: 40
-        }
     },
 
     // Navigation arrows
